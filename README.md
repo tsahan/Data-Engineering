@@ -1,10 +1,12 @@
 # Project: Data Modeling with Postgres
 
+
 ## Summary and purpose:
 
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 They'd like a data engineer to create a Postgres database with tables designed to optimize queries on song play analysis.
+
 
 ## How to run the Python scripts:
 
@@ -21,6 +23,7 @@ They'd like a data engineer to create a Postgres database with tables designed t
 4. `etl.py` reads and processes files from `song_data` and `log_data` and loads them into the tables.
 5. `sql_queries.py` contains all sql queries, and is imported into the last three files above.
 6. `README.md` provides discussion on the project.
+
 
 ## Database schema design and ETL pipeline:
 
