@@ -32,6 +32,6 @@ A star schema database design is preferred for analyzing data more efficiently.
 Star schema simplifies queries and minimizes number of joins for fast analytical performance.
 ETL pipeline is built to extract necessary information from different tables into one. 
 
-![Schema](1-Data-Modeling-with-PostgreSQL/images/sparkifydb_erd.png)
+![Schema](./images/sparkifydb_erd.png)
 
 Information and sample datasets related to this project are taken from the Udacity Data Engineering Nanodegree Program.
